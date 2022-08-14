@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{data.name}</title>
+        <title>{data.name} - FullStack Developer</title>
       </Head>
       {/* This button will not go into production */}
       {process.env.NODE_ENV === "development" && (
