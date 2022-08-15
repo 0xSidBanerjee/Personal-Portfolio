@@ -73,7 +73,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   <Button
-                    onClick={() => window.open("https://docs.google.com/document/d/1zEOV_fzUEkvl8HqkofkhdRw_jNOvR9zy/edit?usp=sharing&ouid=101737230449236238374&rtpof=true&sd=true")}
+                    onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}
                   >
                     Resume
                   </Button>
@@ -87,7 +87,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   <Button
-                    onClick={() => window.open("https://docs.google.com/document/d/1zEOV_fzUEkvl8HqkofkhdRw_jNOvR9zy/edit?usp=sharing&ouid=101737230449236238374&rtpof=true&sd=true")}
+                    onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}
                   >
                     Resume
                   </Button>
@@ -115,7 +115,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button onClick={() => window.open("https://docs.google.com/document/d/1zEOV_fzUEkvl8HqkofkhdRw_jNOvR9zy/edit?usp=sharing&ouid=101737230449236238374&rtpof=true&sd=true")}>
+            <Button onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}>
               Resume
             </Button>
             {mounted && theme && data.darkMode && (
@@ -135,7 +135,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button onClick={() => window.open("https://docs.google.com/document/d/1zEOV_fzUEkvl8HqkofkhdRw_jNOvR9zy/edit?usp=sharing&ouid=101737230449236238374&rtpof=true&sd=true")}>
+            <Button onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}>
               Resume
             </Button>
             {mounted && theme && data.darkMode && (

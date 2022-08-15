@@ -129,6 +129,8 @@ export default function Home() {
             {data.aboutpara}
             <br />
             {data.nextline}
+            <br />
+            {data.lastline}
           </p>
           </div>
         <Footer />
