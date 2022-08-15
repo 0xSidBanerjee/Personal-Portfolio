@@ -12,7 +12,7 @@ const Footer = ({ dark }) => {
         </div>
       </div>
       <h1 className="mr-8 text-sm text-bold mt-2 laptop:mt-14 p-2 laptop:p-0">
-         Thanks for checking my website!<br /> its a work in progress so check back often!
+         Thanks for checking my website <span className="text-royal-purple">&lt;3</span> <br /> Its a work in progress so check back often!
       </h1>
     </>
   );
