@@ -130,7 +130,9 @@ export default function Home() {
             <br />
             {data.nextline}
             <br />
+            <span className="text-xl font-extralight text-royal-purple">
             {data.lastline}
+            </span>
           </p>
           </div>
         <Footer />

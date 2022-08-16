@@ -74,7 +74,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
-                  <Button
+                  <Button type="primary" className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
                     onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}
                   >
                     Resume
@@ -88,7 +88,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
-                  <Button
+                  <Button type="primary" className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
                     onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}
                   >
                     Resume
@@ -117,7 +117,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}>
+            <Button className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" type="primary" onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}>
               Resume
             </Button>
             {mounted && theme && data.darkMode && (
@@ -137,7 +137,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}>
+            <Button className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" type="primary" onClick={() => window.open("https://docs.google.com/document/d/1mzy4ex-2YPM2DSDSw0yqYsl267U9zv-qRDGpJXrVHNI/edit?usp=sharing")}>
               Resume
             </Button>
             {mounted && theme && data.darkMode && (
