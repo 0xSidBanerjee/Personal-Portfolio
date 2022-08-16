@@ -5,6 +5,8 @@ import React, { useEffect, useState } from "react";
 import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
+import Image from "next/image";
+import Logo from "../../public/logo.svg";
 
 const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const router = useRouter();
@@ -18,7 +20,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   }, []);
   return (
     <>
-      <Popover className="block tablet:hidden mt-5">
+      <Popover className="block tablet:hidden mt-1">
         {({ open }) => (
           <>
             <div className="flex items-center justify-between p-2 laptop:p-0">
@@ -26,8 +28,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/")}
                 className="font-medium cursor-pointer p-2 laptop:p-0" 
               >
-                {name}.
-              </h1>
+                <Image src={Logo} alt="logo" width={32} height={32} />
+                </h1>
               <div className="flex items-center">
                 {data.darkMode && (
                   <Button
@@ -98,7 +100,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         )}
       </Popover>
       <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
+        className={`mt-7 hidden flex-row items-center justify-between sticky ${
           theme === "light" && "bg-white"
         } dark:text-white top-0 z-10 tablet:flex`}
       >
@@ -106,7 +108,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           onClick={() => router.push("/")}
           className="text-xl font-bold cursor-pointer mob:p-2 laptop:p-0"
         >
-          {name}<span  className="text-royal-purple">.</span>
+          <Image src={Logo} alt="logo" width={32} height={32} />
         </h1>
         {!isBlog ? (
           <div className="flex font-medium">
