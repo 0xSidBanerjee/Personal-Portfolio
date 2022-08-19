@@ -121,7 +121,7 @@ const Edit = () => {
       <div className="mt-10">
         <div
           className={`z-10 sticky top-12 ${
-            theme === "dark" ? "bg-transparent" : "bg-white"
+            theme === "dark" ? "bg-real-black" : "bg-white"
           }`}
         >
           <div className="flex items-center justify-between">

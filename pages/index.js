@@ -76,7 +76,7 @@ export default function Home() {
             </h1>
             <h1
               ref={textTwo}
-              className="text-royal-purple text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-sky-300 to-sky-300 text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-extrabold w-full laptop:w-4/5"
             >
               {data.headerTaglineTwo}
             </h1>
@@ -96,8 +96,9 @@ export default function Home() {
 
           <Socials className="mt-2 laptop:mt-5" />
         </div>
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0 laptop:ml-10" ref={workRef}>
-          <h1 className="text-royal-purple text-3xl text-bold font-medium">Work.</h1>
+        <div className="mt-20 laptop:mt-40 p-2 laptop:p-0 laptop:ml-10" ref={workRef}>
+          <h1 className="text-xl laptop:text-3xl text-bold font-extrabold "> <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-rose-200 to-blue-300">Yeah, I work hard</span>💼</h1>
+          <h1 className="mt-1 text-sm laptop:text-sm text-bold font-extrabold text-gray-500">Each project is unique. Here are some of my works.</h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
               <WorkCard
@@ -111,8 +112,8 @@ export default function Home() {
           </div>
         </div>
         <br />
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="text-royal-purple tablet:m-10 text-3xl text-bold font-medium">Experiences.</h1>
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0">
+          <h1 className="text-xl laptop:text-3xl text-bold font-extrabold tablet:m-10 text-3xl text-bold font-extrabold"> <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-rose-200 to-blue-300">Mmmm, a little brag </span>😊</h1>          
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
               <ServiceCard
@@ -124,13 +125,15 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="text-royal-purple tablet:m-10 text-3xl text-bold font-medium">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
+          <h1 className="text-xl laptop:text-3xl text-bold font-extrabold tablet:m-10 text-3xl text-bold font-extrabold"> <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-rose-200 to-blue-300">Sold Yet? </span>🤙</h1>
+          <p className="text-gray-400 font-medium tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
             {data.aboutpara}
             <br />
+            <span className="pt-10">
             {data.nextline}
+            </span>
             <br />
-            <span className="text-xl font-extralight text-royal-purple">
+            <span className="text-xl font-extralight text-gray-400">
             {data.lastline}
             </span>
           </p>

@@ -11,7 +11,7 @@ const ServiceCard = ({ name, description }) => {
   return (
     <div
       className={`w-full p-2 mob:p-4 rounded-lg transition-all ease-out duration-300 ${
-        mounted && theme === "dark" ? "" : "hover:bg-slate-50"
+        mounted && theme === "dark" ? "" : "hover:scale-105 cursor-pointer"
       } hover:scale-105 cursor-pointer`}
     >
       <h1 className="text-2xl mob:text-2xl">{name ? name : "Heading"}</h1>
