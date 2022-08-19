@@ -9,8 +9,8 @@ const Button = ({ children, type, onClick, classes }) => {
         onClick={onClick}
         type="button"
         className={`text-sm tablet:text-base p-1 laptop:p-2 m-1 laptop:m-2 rounded-lg ${
-          theme === "dark" ? "bg-gradient-to-r from-rose-500 via-rose-200 to-blue-300 text-black font-bold" : "bg-royal-purple text-white"
-        }  transition-all duration-250 ease-out first:ml-0 hover:scale-105 active:scale-100`}
+          theme === "dark" ? "text-sky-300 font-bold" : "text-sky-300 text-white"
+        }  transition-all duration-250 ease-out first:ml-0 hover:scale-105 hover:bg-slate-700 active:scale-100`}
       >
         {children}
       </button>
