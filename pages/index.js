@@ -93,7 +93,7 @@ export default function Home() {
               {data.headerTaglineFour}
             </h1>
           </div>
-
+          
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-20 laptop:mt-40 p-2 laptop:p-0 laptop:ml-10" ref={workRef}>
@@ -126,10 +126,10 @@ export default function Home() {
         </div>
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="text-xl laptop:text-3xl text-bold font-extrabold tablet:m-10 text-3xl text-bold font-extrabold"> <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-rose-200 to-blue-300">Sold Yet? </span>🤙</h1>
-          <p className="text-gray-400 font-medium tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
+          <p className="ml-4 text-gray-400 font-medium tablet:m-10 text-xl laptop:text-3xl w-full laptop:w-3/5">
             {data.aboutpara}
             <br />
-            <span className="pt-10">
+            <span>
             {data.nextline}
             </span>
             <br />
