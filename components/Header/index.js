@@ -75,7 +75,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   <Button type="primary" className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
-                    onClick={() => window.open("https://drive.google.com/file/d/13PuyX-Iue3CIUxqYTKFn64cZbtkwAel7/view?usp=sharing")}
+                    onClick={() => window.open("https://drive.google.com/file/d/10HirV1z6xNolfmOu6wNyV7jg7xQVFhRp/view?usp=sharing")}
                   >
                     Resume
                   </Button>
@@ -89,7 +89,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   <Button type="primary" className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
-                    onClick={() => window.open("https://drive.google.com/file/d/13PuyX-Iue3CIUxqYTKFn64cZbtkwAel7/view?usp=sharing")}
+                    onClick={() => window.open("https://drive.google.com/file/d/10HirV1z6xNolfmOu6wNyV7jg7xQVFhRp/view?usp=sharing")}
                   >
                     Resume
                   </Button>
@@ -117,7 +117,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" type="primary" onClick={() => window.open("https://drive.google.com/file/d/13PuyX-Iue3CIUxqYTKFn64cZbtkwAel7/view?usp=sharing")}>
+            <Button className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" type="primary" onClick={() => window.open("https://drive.google.com/file/d/10HirV1z6xNolfmOu6wNyV7jg7xQVFhRp/view?usp=sharing")}>
               Resume
             </Button>
             {mounted && theme && data.darkMode && (
@@ -137,7 +137,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" type="primary" onClick={() => window.open("https://drive.google.com/file/d/13PuyX-Iue3CIUxqYTKFn64cZbtkwAel7/view?usp=sharing")}>
+            <Button className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" type="primary" onClick={() => window.open("https://drive.google.com/file/d/10HirV1z6xNolfmOu6wNyV7jg7xQVFhRp/view?usp=sharing")}>
               Resume
             </Button>
             {mounted && theme && data.darkMode && (
