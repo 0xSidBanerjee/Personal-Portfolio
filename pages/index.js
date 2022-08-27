@@ -12,7 +12,6 @@ import Link from "next/link";
 
 // Local Data
 import data from "../data/portfolio.json";
-
 export default function Home() {
   // Ref
   const workRef = useRef();
@@ -60,13 +59,12 @@ export default function Home() {
           </Link>
         </div>
       )}
-
-      <div className="container mx-auto mb-10">
+        <div className="container mx-auto mb-10">
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10">
+        <div className="ml-10 laptop:mt-20 mt-10">
           <div className="mt-5">
             <h1
               ref={textOne}
@@ -92,12 +90,11 @@ export default function Home() {
             >
               {data.headerTaglineFour}
             </h1>
-          </div>
-          
+            </div>
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-20 laptop:mt-40 p-2 laptop:p-0 laptop:ml-10" ref={workRef}>
-          <h1 className="text-xl laptop:text-3xl text-bold font-extrabold "> <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-rose-200 to-blue-300">Yeah, I work hard</span>💼</h1>
+        <h1 className="mt-20 text-xl laptop:text-3xl text-bold font-extrabold "> <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-rose-200 to-blue-300">Yeah, I work hard</span>💼</h1>
           <h1 className="mt-1 text-sm laptop:text-sm text-bold font-extrabold text-gray-500">Each project is unique. Here are some of my works.</h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
