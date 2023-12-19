@@ -104,7 +104,7 @@ export default function Home() {
             </span>
           </h1>
           <h1 className="mt-1 text-l laptop:text-xl text-bold font-bold text-gray-700">
-            Here are some of the projects I've worked on.
+            Here are some of the projects I&#39;ve worked on.
           </h1>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.projects.map((project) => (
