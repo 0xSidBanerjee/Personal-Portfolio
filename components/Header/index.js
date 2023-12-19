@@ -130,7 +130,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
             <Button
-              className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
+              className="h-10 px-5 m-2 hover:text-gray-900 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover: shadow-lg hover:shadow-blue-500/50 rounded-lg focus:shadow-outline"
               type="primary"
               onClick={() =>
                 window.open(
