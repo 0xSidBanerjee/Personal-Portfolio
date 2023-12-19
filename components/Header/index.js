@@ -26,10 +26,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             <div className="flex items-center justify-between p-2 laptop:p-0">
               <h1
                 onClick={() => router.push("/")}
-                className="font-medium cursor-pointer p-2 laptop:p-0" 
+                className="font-medium cursor-pointer p-2 laptop:p-0"
               >
                 <Image src={Logo} alt="logo" width={32} height={32} />
-                </h1>
+              </h1>
               <div className="flex items-center">
                 {data.darkMode && (
                   <Button
@@ -74,10 +74,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
-                  <Button type="primary" className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
-                    onClick={() => window.open("https://drive.google.com/file/d/10HirV1z6xNolfmOu6wNyV7jg7xQVFhRp/view?usp=sharing")}
+                  <Button
+                    type="primary"
+                    className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
+                    onClick={() =>
+                      window.open(
+                        "https://drive.google.com/file/d/1H1MGqYCUgf_KnsC1kW0HxcYmq5UQyfeJ/view?usp=drive_link"
+                      )
+                    }
                   >
-                    Resume
+                    Blog
                   </Button>
                 </div>
               ) : (
@@ -88,10 +94,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
-                  <Button type="primary" className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
-                    onClick={() => window.open("https://drive.google.com/file/d/10HirV1z6xNolfmOu6wNyV7jg7xQVFhRp/view?usp=sharing")}
+                  <Button
+                    type="primary"
+                    className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
+                    onClick={() =>
+                      window.open(
+                        "https://drive.google.com/file/d/1H1MGqYCUgf_KnsC1kW0HxcYmq5UQyfeJ/view?usp=drive_link"
+                      )
+                    }
                   >
-                    Resume
+                    Blog
                   </Button>
                 </div>
               )}
@@ -106,7 +118,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
       >
         <h1
           onClick={() => router.push("/")}
-          className="text-xl font-bold cursor-pointer mob:p-2 laptop:p-0"
+          className="ml-3 text-xl font-bold cursor-pointer mob:p-2 laptop:p-0"
         >
           <Image src={Logo} alt="logo" width={32} height={32} />
         </h1>
@@ -117,7 +129,15 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" type="primary" onClick={() => window.open("https://drive.google.com/file/d/10HirV1z6xNolfmOu6wNyV7jg7xQVFhRp/view?usp=sharing")}>
+            <Button
+              className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
+              type="primary"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1H1MGqYCUgf_KnsC1kW0HxcYmq5UQyfeJ/view?usp=drive_link"
+                )
+              }
+            >
               Resume
             </Button>
             {mounted && theme && data.darkMode && (
@@ -137,8 +157,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800" type="primary" onClick={() => window.open("https://drive.google.com/file/d/10HirV1z6xNolfmOu6wNyV7jg7xQVFhRp/view?usp=sharing")}>
-              Resume
+            <Button
+              className="h-10 px-5 m-2 text-red-100 transition-colors duration-150 bg-red-700 rounded-lg focus:shadow-outline hover:bg-red-800"
+              type="primary"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1H1MGqYCUgf_KnsC1kW0HxcYmq5UQyfeJ/view?usp=drive_link"
+                )
+              }
+            >
+              Blog
             </Button>
             {mounted && theme && data.darkMode && (
               <Button
